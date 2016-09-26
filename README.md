@@ -31,7 +31,7 @@ Shangqui Cai(Leo)
 leocsq@bu.edu
 617-901-2610
 
-Hanjle Zhang(Jay)
+Hanjie Zhang(Jay)
 eeyhz1@bu.edu
 617-852-3959
 
