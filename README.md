@@ -17,7 +17,7 @@ https://trello.com/b/xC7QjXuo/costumer-potential-application
 
 Contact Information:
 -------------------
-Yuxin Cao(Tony) 
+Yuxin Cao(Tony)
 Chris Kang
 Saurabh Singh
 Alejandro Aparicio
