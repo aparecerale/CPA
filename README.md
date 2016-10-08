@@ -1,8 +1,8 @@
-# FirstGit
+Costumer Potential Application
 
-The objective of this project is to make an algorythm which will capture data and give back a suggestion based on the data.
-A power point presentation is availabel that gives a brief overview of the product definition.
-For a platform its convinient to choose a web application since it has the ability to turn into a mobile site as well.
+The objective of this project is to make an algorithm which will capture data and give back a suggestion based on the data.
+A power point presentation is available that gives a brief overview of the product definition.
+For a platform its convenient to choose a web application since it has the ability to turn into a mobile site as well.
 
 Tool:
 -------------------
@@ -26,18 +26,11 @@ Hanjle Zhang(Jay)
 Sining Liu
 -------------------
 
-Divide in 2 teams,
-We can use the same Trello or a different Vote: 
-
-We can change this and since we are working in the same product just different data sets, we can share lessons learned and suggestion. Most likely One team is going to finish first than the other so whoever finishes first can help the other team. Everybody Agrees?
-
-
-Suggestion:
 Team 1:
 	Chris, Saurabh, Jay, Sining
 
 Team 2
-	Leo, Tony, Alejandro,
+	Leo, Tony, Alejandro
 
 
 Pending Tasks:
@@ -63,7 +56,9 @@ Pending Tasks:
 		Deadline: November 10th 
 
 	7. Miscellaneous stuff and party
-		Deadline: December 5th 
+		Deadline: December 5th
+
+ 
 
 
 
