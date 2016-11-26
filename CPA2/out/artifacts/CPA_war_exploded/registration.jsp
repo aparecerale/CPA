@@ -45,7 +45,8 @@
                         <input type="submit" class="sub_button" value="Sign Up" name="button" style="opacity: 0.7;">
                         <%
                             if (request.getParameter("Name") != null
-                                && request.getParameter("Password") != null &&request.getParameter("PasswordConfirm")  != null ) {
+                               && request.getParameter("Password") != null &&request.getParameter("PasswordConfirm")  != null ) {
+                            // if(register.confirmnull(request.getParameter("Name"),request.getParameter("Password"),request.getParameter("PasswordConfirm")) == true)  {
                             if(register.confirm(request.getParameter("Password"),request.getParameter("PasswordConfirm"))) {
                             if (register.duplicate(request.getParameter("Name"))  ){
                                 String Name = request.getParameter("Name").trim().toLowerCase();
@@ -86,6 +87,12 @@
                         </div><%
                                 }
                             }
+                        else{%>
+                        <div class="rem_sub_l">
+                            <label>Username, Password and re-Password can't be null!</label>
+                        </div><%
+
+                                }
 
 
                             %>

@@ -9,8 +9,6 @@
     <title>Visual Admin Dashboard - Home</title>
     <meta name="description" content="">
     <meta name="author" content="templatemo">
-
-
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/templatemo-style.css" rel="stylesheet">
@@ -54,7 +52,7 @@
             <ul>
                 <li><a href="#" class="active"><i class="fa fa-home fa-fw"></i>Preferences</a></li>
                 <li><a href="index.jsp"><i class="fa fa-bar-chart fa-fw"></i>Recommended Movie</a></li>
-                <li><a href="databases.jsp"><i class="fa fa-database fa-fw"></i>Databases</a></li>
+                <li><a href="databases.jsp"><em class="fa fa-database fa-fw"></em>User history</a></li>
                 <li><a href="personal.jsp"><i class="fa fa-info-circle fa-fw"></i>Personal</a></li>
                 <li><a href="login.jsp"><i class="fa fa-eject fa-fw"></i>Sign Out</a></li>
             </ul>
@@ -115,7 +113,9 @@
 									  
 									</div>
 									<div class="clear"></div>
-									<a href="moviedetail.jsp"><h3>Lethal Weapon 4</h3></a>
+									<a href="moviedetail.jsp">
+									<h3>Avatar</h3>
+									</a>
 									<span>Lorem ipsum dolor sit</span>
 								</div>
 							</div>
@@ -129,7 +129,9 @@
 										<a href="moviedetail.jsp" class="info" title="Full Image"><img src="images/play_button_64.png" /></a>  
 									  </div>  
 									</div>
-									<a href="moviedetail.jsp"><h3>Film's Name</h3></a>
+									<a href="moviedetail.jsp">
+									<h3>The Dark Knightes Rises</h3>
+									</a>
 									<span>Lorem ipsum dolor sit</span>
 								</div>
 							</div>
@@ -143,7 +145,7 @@
 										<a href="moviedetail.jsp" class="info" title="Full Image"><img src="images/play_button_64.png" /></a> 
 									  </div>  
 									</div>
-									<a href="moviedetail.jsp"><h3>Lord Of War</h3></a>
+									<a href="moviedetail.jsp"><h3>Spider-Man 3</h3></a>
 									<span>Lorem ipsum dolor sit</span>
 								</div>
 							</div>
@@ -157,7 +159,7 @@
 										<a href="moviedetail.jsp" class="info" title="Full Image"><img src="images/play_button_64.png" /></a>  
 									  </div>  
 									</div>
-									<a href="moviedetail.jsp"><h3>The Sorcerer's Apprentice</h3></a>
+									<a href="moviedetail.jsp"><h3>Man of Steel</h3></a>
 									<span>Lorem ipsum dolor sit</span>
 								</div>
 							</div>

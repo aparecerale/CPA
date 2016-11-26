@@ -9,15 +9,23 @@ public class register {
     // JDBC 驱动名及数据库 URL
     static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
    static final String DB_URL = "jdbc:mysql://localhost:3306/cpa";
-  // static final String DB_URL = "jdbc:mysql://27.54.227.50";
+  //static final String DB_URL = "jdbc:mysql://27.54.227.50/movie";
     // 数据库的用户名与密码，需要根据自己的设置
     static final String USER = "root";
+    //static final String USER = "movie";
     static final String PASS = "";
+    //static final String PASS = "caishangqiu123";
    public static boolean confirm(String inputPassword, String inputPasswordConfirm ){
        if(inputPassword.equals(inputPasswordConfirm))
            return true;
        else
            return false;
+   }
+   public static boolean confirmnull(String inputName, String inputPassword, String inputPasswordConfirm){
+       if(inputName.equals(null)||inputPassword.equals(null)||inputPasswordConfirm.equals(null))
+           return false;
+       else
+           return true;
    }
     public static boolean duplicate(String inputName){
         Connection conn = null;

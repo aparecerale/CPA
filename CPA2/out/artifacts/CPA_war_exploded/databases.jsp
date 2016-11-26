@@ -68,7 +68,7 @@
                 <%--<li><a href="index.jsp"><i class="fa fa-bar-chart fa-fw"></i>Recommended Movie</a></li><%}--%>
                 <%--else{%>--%>
                 <li><a href="recommendation.jsp"><i class="fa fa-bar-chart fa-fw"></i>Recommended Movie</a></li>
-                <li><a href="#" class="active"><i class="fa fa-database fa-fw"></i>Databases</a></li>
+                <li><a href="#" class="active"><em class="fa fa-database fa-fw"></em>User History</a></li>
                 <li><a href="personal.jsp"><i class="fa fa-info-circle fa-fw"></i>Personal</a></li>
                 <li><a href="login.jsp"><i class="fa fa-eject fa-fw"></i>Sign Out</a></li>
             </ul>

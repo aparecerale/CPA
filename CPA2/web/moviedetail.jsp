@@ -40,7 +40,7 @@
 						<img src="images/preview.jpg" alt="" />
 				  </div>
 				<div class="desc span_3_of_2">
-				  <h2><em>Wrath of the Titans </em></h2>
+				  <h2><em>Avatar</em></h2>
 				  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>					
 					<div class="price"> </div>
 					<div class="available"> </div>
@@ -55,8 +55,7 @@
 		  </div>
 		<div class="product_desc">	
 			 <h2>Details :</h2>
-			   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-	           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+			   <p>Avatar (marketed as James Cameron's Avatar) is a 2009 American[7][8] epic science fiction film directed, written, produced, and co-edited by James Cameron, and starring Sam Worthington, Zoe Saldana, Stephen Lang, Michelle Rodriguez, and Sigourney Weaver. The film is set in the mid-22nd century, when humans are colonizing Pandora, a lush habitable moon of a gas giant in the Alpha Centauri star system, in order to mine the mineral unobtanium,[9][10] a room-temperature superconductor.[11] The expansion of the mining colony threatens the continued existence of a local tribe of Na'vi – a humanoid species indigenous to Pandora. The film's title refers to a genetically engineered Na'vi body with the mind of a remotely located human that is used to interact with the natives of Pandora.[12]</p>
 	   </div>
    </div>
 				<div class="rightsidebar span_3_of_1 sidebar">
@@ -67,7 +66,7 @@
 					 		 </div>
 					 		   <div class="movie_desc">
 							    <h3><a href="preview.html">End Game</a></h3>
-							    <span><a href="#">See in detail</a></span></div>
+							    <span><a href="moviedetails.jsp">See in detail</a></span></div>
 								<div class="clear"></div>
 					 		</div>	
 					 		<div class="special_movies">
