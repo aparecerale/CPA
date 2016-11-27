@@ -17,16 +17,24 @@ sc.setCheckpointDir('checkpoint')
 print("\nLoading movie names...")
 nameDict = loadMovieNames()
 
+# MODIFY TO YOUR DATABASE PATH
 data = sc.textFile("file:/Users/alejandroaparicio/Documents/SparkCourse/ml-100k/u.data")
 
 ratings = data.map(lambda l: l.split()).map(lambda l: Rating(int(l[0]), int(l[1]), float(l[2]))).cache()
 
 # Build the recommendation model using Alternating Least Squares
 print("\nTraining recommendation model...")
-rank = 10
+#rank = 10
 # Lowered numIterations to ensure it works on lower-end systems
-numIterations = 6
-model = ALS.train(ratings, rank, numIterations)
+#numIterations = 10
+#model = ALS.train(ratings, rank, numIterations)
+seed = 5
+iterations = 10
+regularization_parameter = 0.1
+rank = 8
+
+model = ALS.train(ratings, rank, seed=seed, iterations=iterations,
+                  lambda_=regularization_parameter)
 
 userID = int(sys.argv[1])
 
