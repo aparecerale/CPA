@@ -1,4 +1,5 @@
-Costumer Potential Application
+##Movie Recommender System
+#Costumer Potential Application
 
 The objective of this project is to make an algorithm which will capture data and give back a suggestion based on the data.
 A power point presentation is available that gives a brief overview of the product definition.
@@ -18,20 +19,8 @@ https://trello.com/b/xC7QjXuo/costumer-potential-application
 Contact Information:
 -------------------
 Yuxin Cao(Tony)
-Chris Kang
-Saurabh Singh
 Alejandro Aparicio
-Shangqui Cai(Leo)
-Hanjle Zhang(Jay)
-Sining Liu
 -------------------
-
-Team 1:
-	Chris, Saurabh, Jay, Sining
-
-Team 2
-	Leo, Tony, Alejandro
-
 
 Pending Tasks:
 	1. Choose a data sets (costumer)
