@@ -1,5 +1,5 @@
 #Movie Recommender System
-##Costumer Potential Application
+##Costumer Potential Application (EC601A1)
 
 Try live demo at: http://1621t870s4.imwork.net
 
