@@ -1,64 +1,58 @@
-Costumer Potential Application
+#Movie Recommender System
+##Costumer Potential Application (EC601A1)
 
-The objective of this project is to make an algorithm which will capture data and give back a suggestion based on the data.
-A power point presentation is available that gives a brief overview of the product definition.
+Try live demo at: http://1621t870s4.imwork.net
+
+(You may login with username:admin password:admin or register a new account)
+
+Please do watch operating video at: https://www.youtube.com/watch?v=OlWqsyNqF5k 
+or downloading FinalDemo.mp4
+
+If you have any problem, contact tonycao@bu.edu please.
+
+###Purpose:
+
+The objective of customer potential application is that we try to predict movies according to user’s taste. Generally speaking, we have two methods, one is to find the similar movie. This one is based on movie datasets,  which downloaded from Kaggle. And another is to explore the similar user. This method is based on the watching history of users. We have to collect it from our web application.
+
 For a platform its convenient to choose a web application since it has the ability to turn into a mobile site as well.
 
-Tool:
--------------------
-You can find several databases in the following link to test your project.
-https://www.kaggle.com/datasets
+###How to deploy it on your computer:
+1.Install Intelij IDEA. https://www.jetbrains.com/idea/#chooseYourEdition
 
-Titanic: Machine Learning from Disaster
-https://www.kaggle.com/c/titanic
+2.Download and install MySQL. Then please set user name as "root" and password as "zcpqweqwe123". Build a new schema "info" with two tables "user_info" and "userRating".
+
+3.Configure tables. The "user_info" table has three columns - "id", "user_name" and "password". The "userRating" has four columns - "id", "user_id", "movie_id" and "rating".
+
+4.Download two projects from Movie_Recommender_Final folder, which are movieWebsite and automaticJava.
+
+5.Open movieWebsite and automaticJava in InteliJ IDEA.
+
+6.Run movieWebsite with Tomcat sever and Driver.main() in automaticJava.
+
+###Devoloping Tools:
+-------------------
+Web developement:
+Client-side: HTML and Javascript
+Back-end: JavaServer Pages (JSP)
+
+Algorithm:
+Hadoop MapReduce 
+Apache Spark
+
+Database:
+MySQL
 
 Trello Board:
 https://trello.com/b/xC7QjXuo/costumer-potential-application
 
-Contact Information:
+###Group Members:
 -------------------
 Yuxin Cao(Tony)
-Chris Kang
-Saurabh Singh
+
 Alejandro Aparicio
-Shangqui Cai(Leo)
-Hanjle Zhang(Jay)
-Sining Liu
--------------------
 
-Team 1:
-	Chris, Saurabh, Jay, Sining
+Shangqiu Cai(Leo)
 
-Team 2
-	Leo, Tony, Alejandro
-
-
-Pending Tasks:
-	1. Choose a data sets (costumer)
-		Deadline: Oct 5th 
-
-	2. Integrate a simple script to put in web service or IOS Android app and added to our web application
-		Deadline: Oct 9th 
-
-	3. Choose a Machine Learning method to use in our dataset
-		Deadline:  Oct 13th 
-
-	4. Learn about the method to use, this will probably take more time to some
-		Update: October 17th 
-		Deadline: October 19th 
-
-	5. Apply the machine learning technique to our data set
-		Update: October 24 and 27
-		Deadline: Nov 3rd 
-
-	6. Integrate Machine learning technique with target dataset into application
-		Update: November 7th 
-		Deadline: November 10th 
-
-	7. Miscellaneous stuff and party
-		Deadline: December 5th
-
- 
 
 
 

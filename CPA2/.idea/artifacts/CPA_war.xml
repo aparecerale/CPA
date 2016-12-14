@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="CPA:war">
-    <output-path>$PROJECT_DIR$/out/artifacts/CPA_war</output-path>
-    <root id="archive" name="CPA_war.war">
-      <element id="artifact" artifact-name="CPA:war exploded" />
-    </root>
-  </artifact>
-</component>
