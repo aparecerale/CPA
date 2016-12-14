@@ -58,20 +58,20 @@ userID = int(sys.argv[1])
 
 print("\nRatings for user ID " + str(userID) + ":")
 userRatings = ratings.filter(lambda l: l[0] == userID)
-# for rating in userRatings.collect():
-#     print nameDict[int(rating[1])] + ": " + str(rating[2])
+for rating in userRatings.collect():
+    print nameDict[int(rating[1])] + ": " + str(rating[2])
 
 print("\nTop 10 recommendations:")
 recommendations = model.recommendProducts(userID, 10)
-# for recommendation in recommendations:
-#     print recommendation[0],':', nameDict[float(recommendation[1])] + \
-#         " score " + str(recommendation[2])
+for recommendation in recommendations:
+    print recommendation[0],':', nameDict[float(recommendation[1])] + \
+        " score " + str(recommendation[2])
 
 #### MYSQL #########################################################################
 insert_recommendations = ("INSERT INTO suggestions (user_id,movie_id, rating) VALUES(%s,%s,%s)")
 
-c.execute("DELETE FROM suggestions WHERE user_id = (userID) VALUES(%s)")
-cnx.commit()
+# c.execute("DELETE FROM suggestions WHERE user_id = (userID) VALUES(%s)")
+# cnx.commit()
 for recommendation in recommendations:
     c.execute(insert_recommendations,(int(recommendation[0]),int(recommendation[1]),float(recommendation[2])))
     cnx.commit()
