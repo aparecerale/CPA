@@ -3,9 +3,9 @@
 
 Try live demo at: http://1621t870s4.imwork.net
 
-If you have any problem, contact tonycao@bu.edu please.
-
 Watch operating video at: https://www.youtube.com/watch?v=OlWqsyNqF5k or downloading FinalDemo.mp4
+
+If you have any problem, contact tonycao@bu.edu please.
 
 The objective of customer potential application is that we try to predict movies according to user’s taste. Generally speaking, we have two methods, one is to find the similar movie. This one is based on movie datasets,  which downloaded from Kaggle. And another is to explore the similar user. This method is based on the watching history of users. We have to collect it from our web application.
 
