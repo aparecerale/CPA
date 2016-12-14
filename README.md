@@ -29,6 +29,22 @@ For a platform its convenient to choose a web application since it has the abili
 
 6.Run movieWebsite with Tomcat sever and Driver.main() in automaticJava.
 
+
+###Machine Learning Algoythm:
+A separate Machine Learning Algorythm was also developed to communicate to the website through MySQL.
+
+Requirements:
+MySQL
+Apache Spark
+
+The Machine Learning algorythm is in: MachineLearning/SparkCourse/mysql_movie-recommendations-als.py
+
+To run this porton separatly from the website it's nessesary to download an additional movie database 
+http://grouplens.org/datasets/movielens/
+http://files.grouplens.org/datasets/movielens/ml-latest-small.zip
+
+Run algorythm using spark-submit and add to the first argument the user number you wish to train the model for.
+
 ###Devoloping Tools:
 -------------------
 Web developement:
