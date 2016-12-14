@@ -42,12 +42,12 @@ MySQL
 Trello Board:
 https://trello.com/b/xC7QjXuo/costumer-potential-application
 
-###Contact Information:
+###Group Members:
 -------------------
 Yuxin Cao(Tony)
 Alejandro Aparicio
 Shangqiu Cai(Leo)
--------------------
+
 
 
 
