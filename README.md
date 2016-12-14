@@ -45,7 +45,9 @@ https://trello.com/b/xC7QjXuo/costumer-potential-application
 ###Group Members:
 -------------------
 Yuxin Cao(Tony)
+
 Alejandro Aparicio
+
 Shangqiu Cai(Leo)
 
 
