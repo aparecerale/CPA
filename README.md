@@ -29,6 +29,7 @@ For a platform its convenient to choose a web application since it has the abili
 
 6.Run movieWebsite with Tomcat sever and Driver.main() in automaticJava.
 
+7.Notice that our website is running on 8080 port and will refresh result every 10 minutes.
 
 ###Machine Learning Algoythm:
 A separate Machine Learning Algorythm was also developed to communicate to the website through MySQL.
