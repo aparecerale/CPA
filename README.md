@@ -2,6 +2,7 @@
 ##Costumer Potential Application (EC601A1)
 
 Try live demo at: http://1621t870s4.imwork.net
+(You may login with username:admin password:admin or register a new account)
 
 Please do watch operating video at: https://www.youtube.com/watch?v=OlWqsyNqF5k 
 or downloading FinalDemo.mp4
