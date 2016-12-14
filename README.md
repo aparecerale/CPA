@@ -1,5 +1,5 @@
-##Movie Recommender System
-#Costumer Potential Application
+#Movie Recommender System
+##Costumer Potential Application
 
 The objective of this project is to make an algorithm which will capture data and give back a suggestion based on the data.
 A power point presentation is available that gives a brief overview of the product definition.
